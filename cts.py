@@ -74,19 +74,3 @@ for i in range(0, len(result), 7):
 sheet.update_cells(cells)
 
 print("DONE")
-	
-
-'''
-#for finding data
-cell = sheet.find('apple')
-if not cell:
-	print("not found")
-#for update data (row, col, data) works on fill data and change status
-sheet.update_cell(35, 8, 'PASS')
-
-#update multiple cells
-cells = []
-cells.append(Cell(row=34, col=3, value=52))
-cells.append(Cell(row=35, col=3, value=20))
-sheet.update_cells(cells)
-'''	
