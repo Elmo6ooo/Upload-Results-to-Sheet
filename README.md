@@ -6,11 +6,12 @@
 	- pip install gspread
 	- pip install oauth2client
   
-- Modify the path of results html
-  
-- Run script
-  - python3 ats.py
-  - python3 cts.py
-  - python3 gsi.py
-  - python3 sts.py
-  - python3 vts.py
+- Two ways to execute upload.py
+
+1. `python3 upload.py "device" "build" "test suite" "path"`
+
+   `python3 upload.py sh tm cts /usr/local/...`
+
+2. run `python3 upload.py` and input relative arguments
+
+![S__71548930](https://user-images.githubusercontent.com/99638331/230011441-47212b60-9c0e-420c-880f-3b14fa2dfa0b.jpg)
